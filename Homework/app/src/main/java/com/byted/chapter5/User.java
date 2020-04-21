@@ -17,7 +17,20 @@ import com.google.gson.annotations.SerializedName;
  * "username": "wwwsjdajsd"
  */
 class User {
-    @SerializedName("nickname")
-    public String nickname;
+
+    @SerializedName("username")
+    public String username;
+
+
+    @SerializedName("password")
+    public String password;
+
+
+    @SerializedName("repassword")
+    public String repassword;
+
+
+
+
 
 }
